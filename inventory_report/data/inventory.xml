@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <record>
+    <id>1</id>
+    <nome_do_produto>Nicotine Polacrilex</nome_do_produto>
+    <nome_da_empresa>Target Corporation</nome_da_empresa>
+    <data_de_fabricacao>2020-02-18</data_de_fabricacao>
+    <data_de_validade>2022-09-17</data_de_validade>
+    <numero_de_serie>CR25 1551 4467 2549 4402 1</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 1</instrucoes_de_armazenamento>
+  </record>
+  <record>
+    <id>2</id>
+    <nome_do_produto>fentanyl citrate</nome_do_produto>
+    <nome_da_empresa>Target Corporation</nome_da_empresa>
+    <data_de_fabricacao>2019-12-06</data_de_fabricacao>
+    <data_de_validade>2022-12-25</data_de_validade>
+    <numero_de_serie>FR29 5951 7573 74OY XKGX 6CSG D20</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 2</instrucoes_de_armazenamento>
+  </record>
+  <record>
+    <id>3</id>
+    <nome_do_produto>NITROUS OXIDE</nome_do_produto>
+    <nome_da_empresa>Galena Biopharma</nome_da_empresa>
+    <data_de_fabricacao>2019-12-22</data_de_fabricacao>
+    <data_de_validade>2023-11-07</data_de_validade>
+    <numero_de_serie>CZ09 8588 0858 8435 9140 2695</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 3</instrucoes_de_armazenamento>
+  </record>
+  <record>
+    <id>4</id>
+    <nome_do_produto>Norepinephrine Bitartrate</nome_do_produto>
+    <nome_da_empresa>Cantrell Drug Company</nome_da_empresa>
+    <data_de_fabricacao>2019-12-24</data_de_fabricacao>
+    <data_de_validade>2024-08-19</data_de_validade>
+    <numero_de_serie>MT04 VJPY 0772 3DCE K8U3 WIVL VV3K AEN</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 4</instrucoes_de_armazenamento>
+  </record>
+  <record>
+    <id>5</id>
+    <nome_do_produto>ACETAMINOPHEN, PHENYLEPHRINE HYDROCHLORIDE</nome_do_produto>
+    <nome_da_empresa>Moore Medical LLC</nome_da_empresa>
+    <data_de_fabricacao>2020-04-14</data_de_fabricacao>
+    <data_de_validade>2024-01-14</data_de_validade>
+    <numero_de_serie>LV23 ELDS 2GD5 X19P VCSI K</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 5</instrucoes_de_armazenamento>
+  </record>
+  <record>
+    <id>6</id>
+    <nome_do_produto>Silicea Belladonna</nome_do_produto>
+    <nome_da_empresa>Cantrell Drug Company</nome_da_empresa>
+    <data_de_fabricacao>2020-07-18</data_de_fabricacao>
+    <data_de_validade>2023-10-05</data_de_validade>
+    <numero_de_serie>FR57 7414 7254 046O IHVX AV6L H71</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 6</instrucoes_de_armazenamento>
+  </record>
+  <record>
+    <id>7</id>
+    <nome_do_produto>Spironolactone</nome_do_produto>
+    <nome_da_empresa>REMEDYREPACK</nome_da_empresa>
+    <data_de_fabricacao>2020-07-17</data_de_fabricacao>
+    <data_de_validade>2022-11-18</data_de_validade>
+    <numero_de_serie>SM28 B981 5118 903W JY0C 5KVO 3QD</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 7</instrucoes_de_armazenamento>
+  </record>
+  <record>
+    <id>8</id>
+    <nome_do_produto>Aspirin</nome_do_produto>
+    <nome_da_empresa>Galena Biopharma</nome_da_empresa>
+    <data_de_fabricacao>2020-02-22</data_de_fabricacao>
+    <data_de_validade>2023-03-14</data_de_validade>
+    <numero_de_serie>KZ63 800H NM4B ZOWB YYUI</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 8</instrucoes_de_armazenamento>
+  </record>
+  <record>
+    <id>9</id>
+    <nome_do_produto>eucalyptus globulus</nome_do_produto>
+    <nome_da_empresa>Target Corporation</nome_da_empresa>
+    <data_de_fabricacao>2019-09-06</data_de_fabricacao>
+    <data_de_validade>2023-05-21</data_de_validade>
+    <numero_de_serie>GT74 LHWJ FCXL JNQT ZCXM 4761 GWSP</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 9</instrucoes_de_armazenamento>
+  </record>
+  <record>
+    <id>10</id>
+    <nome_do_produto>Titanium Dioxide</nome_do_produto>
+    <nome_da_empresa>Target Corporation</nome_da_empresa>
+    <data_de_fabricacao>2019-12-08</data_de_fabricacao>
+    <data_de_validade>2022-12-08</data_de_validade>
+    <numero_de_serie>FR29 5791 5333 58XR G4PR IG28 D08</numero_de_serie>
+    <instrucoes_de_armazenamento>instrucao 10</instrucoes_de_armazenamento>
+  </record>
+</dataset>

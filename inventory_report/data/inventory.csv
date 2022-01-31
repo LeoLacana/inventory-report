@@ -1,0 +1,11 @@
+id,nome_do_produto,nome_da_empresa,data_de_fabricacao,data_de_validade,numero_de_serie,instrucoes_de_armazenamento
+1,Nicotine Polacrilex,Target Corporation,2020-02-18,2022-09-17,CR25 1551 4467 2549 4402 1,instrucao 1
+2,fentanyl citrate,"Target Corporation",2019-12-06,2022-12-25,FR29 5951 7573 74OY XKGX 6CSG D20,instrucao 2
+3,NITROUS OXIDE,"Galena Biopharma",2019-12-22,2023-11-07,CZ09 8588 0858 8435 9140 2695,instrucao 3
+4,Norepinephrine Bitartrate,Cantrell Drug Company,2019-12-24,2024-08-19,MT04 VJPY 0772 3DCE K8U3 WIVL VV3K AEN,instrucao 4
+5,"ACETAMINOPHEN, PHENYLEPHRINE HYDROCHLORIDE",Moore Medical LLC,2020-04-14,2024-01-14,LV23 ELDS 2GD5 X19P VCSI K,instrucao 5
+6,Silicea Belladonna,Cantrell Drug Company,2020-07-18,2023-10-05,FR57 7414 7254 046O IHVX AV6L H71,instrucao 6
+7,Spironolactone,"REMEDYREPACK",2020-07-17,2022-11-18,SM28 B981 5118 903W JY0C 5KVO 3QD,instrucao 7
+8,Aspirin,"Galena Biopharma",2020-02-22,2023-03-14,KZ63 800H NM4B ZOWB YYUI,instrucao 8
+9,eucalyptus globulus,"Target Corporation",2019-09-06,2023-05-21,GT74 LHWJ FCXL JNQT ZCXM 4761 GWSP,instrucao 9
+10,Titanium Dioxide,Target Corporation,2019-12-08,2022-12-08,FR29 5791 5333 58XR G4PR IG28 D08,instrucao 10

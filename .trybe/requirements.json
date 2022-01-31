@@ -1,0 +1,189 @@
+{
+  "requirements": [
+    {
+      "identifier": "test_validar_simplereport_retorna_data_de_fabricacao_mais_antiga",
+      "description": "1.1 - Será validado que o método `generate` da classe `SimpleReport` retorna a data de fabricação mais antiga",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_simplereport_retorna_validade_mais_proxima",
+      "description": "1.2 - Será validado que o método `generate` da classe `SimpleReport` retorna a validade mais próxima",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_simplereport_retorna_empresa_com_maior_estoque",
+      "description": "1.3 - Será validado que o método `generate` da classe `SimpleReport` retorna a empresa com maior estoque",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_simplereport_retorna_formato_correto",
+      "description": "1.4 - Será validado que o método `generate` da classe `SimpleReport` retorna o relatório no formato correto",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_completereport_retorna_data_de_fabricacao_mais_antiga",
+      "description": "2.1 - Será validado que o método `generate` da classe `CompleteReport` retorna a data de fabricação mais antiga",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_completereport_retorna_validade_mais_proxima",
+      "description": "2.2 - Será validado que o método `generate` da classe `CompleteReport` retorna a validade de fabricação mais próxima",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_completereport_retorna_empresa_com_maior_estoque",
+      "description": "2.3 - Será validado que o método `generate` da classe `CompleteReport` retorna a empresa com maior estoque",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_completereport_retorna_quantidade_de_estoque_correto",
+      "description": "2.4 - Será validado que o método `generate` da classe `CompleteReport` retorna a quantidade de produtos por empresa",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_completereport_retorna_formato_correto",
+      "description": "2.5 - Será validado que o método `generate` da classe `CompleteReport` retorna o relatório no formato correto",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_importerdata_importar_um_arquivo_csv_simples",
+      "description": "3.1 - Será validado que ao importar um arquivo csv, será retornado um report simples",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_importerdata_importar_um_arquivo_csv_completo",
+      "description": "3.2 - Será validado que ao importar um arquivo csv, será retornado um report completo",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_importerdata_importar_um_arquivo_json_simples",
+      "description": "4.1 - Será validado que ao importar um arquivo json, será retornado um report simples",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_importerdata_importar_um_arquivo_json_completo",
+      "description": "4.2 - Será validado que ao importar um arquivo json, será retornado um report completo",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_importerdata_importar_um_arquivo_xml_simples",
+      "description": "5.1 - Será validado que ao importar um arquivo xml, será retornado um report simples",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_importerdata_importar_um_arquivo_xml_completo",
+      "description": "5.2 - Será validado que ao importar um arquivo xml, será retornado um report completo",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_classe_csvimporter_esta_herdando_importer",
+      "description": "6.1 - Será validado que a classe CsvImporter herda da classe Importer",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_classe_jsonimporter_esta_herdando_importer",
+      "description": "6.2 - Será validado que a classe JsonImporter herda da classe Importer",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_classe_xmlimporter_esta_herdando_importer",
+      "description": "6.3 - Será validado que a classe XmlImporter herda da classe Importer",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_classe_csvimporter_esta_importando_para_uma_lista",
+      "description": "6.4 - Será validado que a classe CsvImporter importa os dados para uma lista",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_classe_jsonimporter_esta_importando_para_uma_lista",
+      "description": "6.5 - Será validado que a classe JsonImporter importa os dados para uma lista",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_classe_xmlimporter_esta_importando_para_uma_lista",
+      "description": "6.6 - Será validado que a classe XmlImporter importa os dados para uma lista",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_extensao_invalida_do_csvimporter",
+      "description": "6.7 - Será validado que enviar um arquivo com extensão incorreta para o CsvImporter irá gerar um erro",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_extensao_invalida_jsonimporter",
+      "description": "6.8 - Será validado que enviar um arquivo com extensão incorreta para o JsonImporter irá gerar um erro",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_extensao_invalida_xmlimporter",
+      "description": "6.9 - Será validado que enviar um arquivo com extensão incorreta para o XmlImporter irá gerar um erro",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_inter_e_instanciado_por_iterator",
+      "description": "7.1 - Será validado que a instancia de InventoryRefactor é iterável (Iterable)",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_iterar_primeiro_item_com_csv",
+      "description": "7.2 - Será validado que é possivel iterar o primeiro item da lista usando csv",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_iterar_primeiro_item_com_json",
+      "description": "7.3 - Será validado que é possivel iterar o primeiro item da lista usando json",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_iterar_primeiro_item_com_xml",
+      "description": "7.4 - Será validado que é possivel iterar o primeiro item da lista usando xml",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_iterar_expandir_com_dois_arquivos",
+      "description": "7.5 - Será validado que é possivel receber duas fontes de dados sem sobreescrita",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_enviar_arquivo_extensao_invalida",
+      "description": "7.6 - Será validado que não é possivel enviar arquivo inválido",
+      "bonus": false
+    },
+    {
+      "identifier": "test_validar_menu_enviar_um_arquivo_csv_simples",
+      "description": "8.1 - Será validado que o menu importa um arquivo csv e gera um report simples",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_menu_enviar_um_arquivo_csv_completo",
+      "description": "8.2 - Será validado que o menu importa um arquivo csv e gera um report completo",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_menu_enviar_um_arquivo_json_simples",
+      "description": "8.3 - Será validado que o menu importa um arquivo json e gera um report simples",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_menu_enviar_um_arquivo_json_completo",
+      "description": "8.4 - Será validado que o menu importa um arquivo json e gera um report completo",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_menu_enviar_um_arquivo_xml_simples",
+      "description": "8.5 - Será validado que o menu importa um arquivo xml e gera um report simples",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_menu_enviar_um_arquivo_xml_completo",
+      "description": "8.6 - Será validado que o menu importa um arquivo xml e gera um report completo",
+      "bonus": true
+    },
+    {
+      "identifier": "test_validar_menu_com_menos_argumentos",
+      "description": "8.7 - Será validado que enviar argumentos faltantes irá gerar um erro",
+      "bonus": true
+    }
+  ]
+}

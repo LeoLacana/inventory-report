@@ -1,0 +1,6 @@
+ignore_files:
+  - .editorconfig
+  - setup.py
+  - setup.cfg
+  - pyproject.toml
+  - tests/
