@@ -5,3 +5,4 @@ class Importer(ABC):
     @abstractmethod
     def import_data(self, data):
         raise NotImplementedError
+# Opa
