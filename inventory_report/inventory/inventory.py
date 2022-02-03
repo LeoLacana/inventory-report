@@ -15,27 +15,21 @@ class Inventory:
         return response
 
     @classmethod
-    def read_files(cls, path, file):
-        response = []
-        if path.endswith(".csv"):
-            file_csv = DictReader(file, delimiter=",", quotechar='"')
-            for value in file_csv:
-                response.append(value)
-            return response
-        if path.endswith(".json"):
-            return json.load(file)
-        if path.endswith(".xml"):
-            read_file = file.read()
-            file_xml = xmltodict.parse(read_file)
-            list = cls.list_xml(file_xml)
-            return list
+    def read_files(cls, path):
+        with open(path, "r") as file:
+            if path.endswith(".csv"):
+                return list(DictReader(file))
+            elif path.endswith(".json"):
+                return json.load(file)
+            elif path.endswith(".xml"):
+                read_file = file.read()
+                file_xml = xmltodict.parse(read_file)
+                list_xml = cls.list_xml(file_xml)
+                return list_xml
 
     @classmethod
     def import_data(cls, path, type_report):
-
-        report = []
-        with open(path, "r") as file:
-            report = cls.read_files(path, file)
+        report = cls.read_files(path)
 
         if type_report == "simples":
             result = SimpleReport.generate(report)
