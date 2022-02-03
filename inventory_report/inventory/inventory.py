@@ -7,6 +7,14 @@ import xmltodict
 
 class Inventory:
     @classmethod
+    def list_xml(cls, file_type):
+        response = []
+        for row in file_type["dataset"]["record"]:
+            response.append(row)
+
+        return response
+
+    @classmethod
     def read_files(cls, path, file):
         response = []
         if path.endswith(".csv"):
@@ -19,9 +27,8 @@ class Inventory:
         if path.endswith(".xml"):
             read_file = file.read()
             file_xml = xmltodict.parse(read_file)
-            for value in file_xml['dataset']['record']:
-                response.append(value)
-            return response
+            list = cls.list_xml(file_xml)
+            return list
 
     @classmethod
     def import_data(cls, path, type_report):
